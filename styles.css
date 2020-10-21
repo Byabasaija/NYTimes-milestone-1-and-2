@@ -1,6 +1,13 @@
 body {
-    margin: 20px;
-    width: 80%;
-    font: 100%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 20px;
+  width: 100%;
+  font: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  height: 30px;
+  background-color: #ffffff;
 }
