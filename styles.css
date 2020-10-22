@@ -1,106 +1,121 @@
 body {
-    width: 100%;
-    font-size: 150%;
-    font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 #top-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    height: 30px;
-    background-color: #ffffff;
-    border-style: hidden;
-    width: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 50px;
+  background-color: #ffffff;
+  border-style: hidden;
+  width: inherit;
+  position: fixed;
+  margin-top: -50px;
 }
 
 .header-div1 i,
 .header-div1 a,
 .header-div3 a {
-    padding: 10px;
+  padding: 10px;
 }
 
 h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .subscribe,
 .login {
-    background-color: rgb(63, 61, 230);
-    border-style: none;
-    color: #ffffff;
+  background-color: rgb(63, 61, 230);
+  border-style: none;
+  color: #ffffff;
 }
 
 .article {
-    width: 80%;
-    text-align: center;
+  width: 80%;
+  text-align: center;
 }
 
 article {
-    width: 60%;
+  width: 60%;
 }
 
 .article header h1 {
-    color: #121212;
-    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 1.5em;
-    text-align: left;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 10px;
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.5em;
+  text-align: left;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .article figure {
-    margin: 50px auto;
-    margin-top: 20px;
-    text-align: center;
+  margin: 50px auto;
+  margin-top: 20px;
+  text-align: center;
 }
 
 section {
-    width: 800px;
-    text-align: left;
-    margin: 50px auto;
+  width: 900px;
+  text-align: left;
+  margin: 50px auto;
+  font-size: 90%;
+  color: #222222;
 }
 
 .article figure figcaption {
-    width: inherit;
-    font-size: 65%;
-    text-align: left;
+  width: inherit;
+  font-size: 65%;
+  text-align: left;
 }
 
 main {
-    width: 80%;
-    margin: 20px auto;
+  width: 80%;
+  margin: 20px auto;
 }
 
 p,
 header,
 article {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-div2 {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .author div {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .author h4 {
-    text-align: left;
+  text-align: left;
+  font-size: 80%;
 }
 
 .author {
-    font-size: 75%;
+  font-size: 75%;
+}
+i {
+  margin-left: 10px;
+}
+article p {
+  text-align: start;
+  margin-top: 5px;
+}
+.article-title {
+  text-align: start;
+  text-transform: none;
 }
